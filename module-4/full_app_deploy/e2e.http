@@ -1,0 +1,8 @@
+POST http://{LOAD_BALANCER_IP}/
+content-Type: 'application/json'
+
+{
+  "name": "lorem",
+  "email": "lorem@ipsum.com",
+  "comment": "testing"
+}
